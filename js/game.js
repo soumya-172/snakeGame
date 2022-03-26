@@ -1,10 +1,10 @@
 // constants & variables
 
 let inputDir = {x: 0, y: 0};
-const foodSound = new Audio('../assets/food.mp3');
-const gameOverSound = new Audio('../assets/gameover.mp3');
-const moveSound = new Audio('../assets/move.mp3');
-const musicSound = new Audio('../assets/music.mp3');
+const foodSound = new Audio('assets/food.mp3');
+const gameOverSound = new Audio('assets/gameover.mp3');
+const moveSound = new Audio('assets/move.mp3');
+const musicSound = new Audio('assets/music.mp3');
 let speed = 5;
 let lastPaintTime = 0;
 let snakeArr = [{x: 13, y: 15}]
